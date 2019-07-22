@@ -15,6 +15,7 @@ class ExchangeRateController extends AbstractController
         $exChange = new ExchangeRate();
         $em = $this->getDoctrine()->getManager();
 
+
         foreach ($contests as $key => $value) {
 
             $exChange->setValue($value[0]['amount']);
