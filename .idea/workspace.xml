@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1586806a-6160-4fa0-bc25-5c25080c2379" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Command/ExchangeRateCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Command/ExchangeRateCommand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ExchangeRateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ExchangeRateController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,14 +42,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Command/ExchangeRateCommand.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+            <state relative-caret-position="637">
+              <caret line="56" column="29" lean-forward="true" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
               <folding>
                 <element signature="e#31#73#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -59,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/src/Controller/ExchangeRateController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
               <folding>
                 <element signature="e#36#64#0#PHP" expanded="true" />
               </folding>
@@ -71,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/vendor/symfony/framework-bundle/Controller/ControllerTrait.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
-              <caret line="340" column="7" lean-forward="true" selection-start-line="340" selection-start-column="7" selection-end-line="340" selection-end-column="7" />
+              <caret line="340" column="7" selection-start-line="340" selection-start-column="7" selection-end-line="340" selection-end-column="7" />
               <folding>
                 <element signature="e#292#340#0#PHP" expanded="true" />
               </folding>
@@ -123,6 +131,7 @@
         <option value="$PROJECT_DIR$/src/Controller/ArticleController.php" />
         <option value="$PROJECT_DIR$/src/Controller/ExchangeRateController.php" />
         <option value="$PROJECT_DIR$/src/Command/ExchangeRateCommand.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -316,12 +325,12 @@
       <workItem from="1563769631778" duration="45000" />
       <workItem from="1563769708834" duration="300000" />
       <workItem from="1563771020064" duration="7601000" />
-      <workItem from="1563796162537" duration="8329000" />
+      <workItem from="1563796162537" duration="8694000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31304000" />
+    <option name="totallyTimeSpent" value="31669000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -561,7 +570,7 @@
     <entry file="file://$PROJECT_DIR$/vendor/symfony/framework-bundle/Controller/ControllerTrait.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
-          <caret line="340" column="7" lean-forward="true" selection-start-line="340" selection-start-column="7" selection-end-line="340" selection-end-column="7" />
+          <caret line="340" column="7" selection-start-line="340" selection-start-column="7" selection-end-line="340" selection-end-column="7" />
           <folding>
             <element signature="e#292#340#0#PHP" expanded="true" />
           </folding>
@@ -578,7 +587,7 @@
     <entry file="file://$PROJECT_DIR$/src/Controller/ExchangeRateController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
           <folding>
             <element signature="e#36#64#0#PHP" expanded="true" />
           </folding>
@@ -587,11 +596,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Command/ExchangeRateCommand.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        <state relative-caret-position="637">
+          <caret line="56" column="29" lean-forward="true" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
           <folding>
             <element signature="e#31#73#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
