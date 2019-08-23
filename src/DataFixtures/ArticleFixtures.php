@@ -50,18 +50,6 @@ The key takeaway is that objects are at the center of the object-oriented progra
             $article->setAuthor($this->faker->randomElement(self::$articleAuthors))
                 ->setHeartCount($this->faker->numberBetween(5, 100))
                 ->setImage($this->faker->randomElement(self::$articleImages));
-
-            $comment1 = new Comment();
-            $comment1->setAuthorName('Harun Baş');
-            $comment1->setContent('Testting comment');
-            $comment1->setArticle($article);
-            $manager->persist($comment1);
-
-            $comment2 = new Comment();
-            $comment2->setAuthorName('Harun Test');
-            $comment2->setContent('Testting comment Test');
-            $comment2->setArticle($article);
-            $manager->persist($comment2);
         });
 
         $manager->flush();
