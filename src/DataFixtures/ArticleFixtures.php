@@ -4,9 +4,11 @@ namespace App\DataFixtures;
 
 use App\Entity\Article;
 use App\Entity\Comment;
+use App\Entity\Tag;
+use Doctrine\Common\DataFixtures\DependentFixtureInterface;
 use Doctrine\Common\Persistence\ObjectManager;
 
-class ArticleFixtures extends BaseFixtures
+class ArticleFixtures extends BaseFixtures implements DependentFixtureInterface
 {
     private static $articleTitle = [
       'Hello Dünya',
@@ -50,8 +52,25 @@ The key takeaway is that objects are at the center of the object-oriented progra
             $article->setAuthor($this->faker->randomElement(self::$articleAuthors))
                 ->setHeartCount($this->faker->numberBetween(5, 100))
                 ->setImage($this->faker->randomElement(self::$articleImages));
+
+            /**
+             * @var Tag[] $tags
+             */
+            $tags = $this->getRandomReferences(Tag::class, $this->faker->numberBetween(0,5));
+            foreach ($tags as $tag) {
+                 $article->addTag($tag);
+                 //$article->removeTag($tag);
+            }
         });
 
         $manager->flush();
     }
+
+    public function getDependencies()
+    {
+        return [
+            TagFixture::class
+        ];
+    }
+
 }
